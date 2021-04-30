@@ -1,0 +1,23 @@
+Calcular Liquidacion de sueldo
+
+
+
+Calcular Boletas de Honorarios
+Entradas:
+
+Datos Emisor
+Datos Receptor
+Fecha 
+Descripcion del Servicio
+Sueldo Bruto
+Retencion -11.5
+
+Proceso:
+Llenar Datos Correspondientes 
+Calcular Monto Retencion
+Calcular Sueldo con Descuentos
+
+
+Salida
+Boleta con Sueldo y Datos
+

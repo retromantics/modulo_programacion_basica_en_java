@@ -1,0 +1,23 @@
+Algoritmo para realizar una compra virtual
+
+Entradas :
+Pruductos
+Cantidad
+Informaciòn Usuario
+Medio de Pago
+Medio de Entrega
+
+Proceso:
+1. Validar existencia de productos
+2. Si los productos no existen, enviar mensaje. Si no, , continuar.
+3. Solicitar datos de usuario, si esta registrado mostrar datos guardados, si no, solicitar registro o comprar como invitado.
+4. Solicitar datos de envio, si es a domicilio, calcular envio. Si no, pedir q seleccione tienda de retiro.
+5. Seleccionar medio de Pago .
+6. Confirmar Compra.
+7. Realizar pego o reedireccionar a pagina de pago.
+8. Validar Pago
+9. Ingreso venta en sistema y Descuento de productos en stock
+10.Enviar de correo de confirmacion
+
+Salida:
+Pantalla de transaccion exitosa o erronea segun sea el caso.
