@@ -1,0 +1,94 @@
+Actividad Dia 1
+
+Algoritmo Preparación sándwich
+
+Entradas :
+Pan 
+Pastrami
+Queso
+Pepinillos
+Mostaza
+Cuchillo
+Plato
+
+Proceso:
+Cortar pan por la mitad de forma horizontal
+Poner pastrimi y queso sobre una mitad del pan cortado
+Picar los pepinillos en rodajas 
+Poner los pepinillos cortados sobre los demás ingredientes
+Poner mostaza 
+Poner la otra mitad del pan sobre la mitad con los ingredientes (cerrar pan)
+Servir en plato
+
+
+Salida:
+Sandwich Pastrimi
+
+==========================================================
+
+Actividad Grupal
+-Cambiar rueda vehículo
+-Cambiar Pañal
+-Cambiar clave correo electrónico
+
+(1)
+Entradas:
+Rueda de Repuesto
+Llave de cruz
+Gata Hidráulica
+
+Proceso:
+Soltar los pernos del auto con la llave de cruz
+Poner la Gata bajo el auto
+subir el auto usando la gata
+quitar los pernos
+retirar la rueda pinchada
+poner la rueda de repuesto
+poner los pernos
+ajustar los pernos
+bajar el auto
+apretar los pernos 
+retirar la llave 
+
+Salida :
+Auto con Sueda Cambiada
+
+____________________________________________
+
+(2)
+
+Entradas:
+Pañal 
+Toalla Húmeda
+Agua y jabon
+Toalla
+Manta
+Basura
+
+Proceso:
+Tender la manta sobre una superficie plana (cama, mesa )
+Abrir velcros 
+Quitar pañal con cuidado
+Si tiene solo pipí, limpiar con  toallita humedades
+Si tiene caquita, lavar con agua y jabón y secar
+Poner el pañal limpio y ajustarlo con los velcros
+Botar pañal sucio al basurero
+
+_____________________________________________
+
+(3)
+
+
+Entradas:
+Usuario
+Clave actual
+
+Proceso:
+Iniciar Sesión
+
+==============================================================
+
+
+
+
+

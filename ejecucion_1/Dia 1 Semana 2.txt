@@ -1,0 +1,47 @@
+Clase día 1 - semana 2
+
+Integrante: Leonardo Rodenas Escobar, Ignacio Cavallo, Camila Campos, Evelyn Ibarra y Jonathan Rosales.
+E-mails: ignaciomcavallo@gmail.com, ibarrarojas.evelyn@gmail.com, jonathan.rosales.tognarelli@gmail.com y camila.campos.soto@gmail.com
+
+Ejercicio grupal 1: Pensar en dos problemáticas las cuales podamos resolver aplicando tecnología (software). luego analizar y definir tres requerimientos funcionales y determinar todas las variables y constantes que pueden existir dentro de estos requerimientos para luego desarrollar el algoritmo para cada uno de estos.
+
+Problemática 1: Necesitamos realizar un dibujo para una presentación
+Requerimientos funcionales: Necesidad contar con un lápiz, borrador y cambiar paleta de colores.
+Variables: 
+	Lápiz: dirección del trazado (variable), grosor (constante)
+	Borrador:  Dirección del borrado (variable), Acción de borrado (constante)
+	Cambio de colores: Paleta de colores (constante), selección de color 	(variable)
+Algoritmo:
+
+Lápiz = selección de herramienta lápiz (entrada), punto inicial y final del vector (proceso), línea trazada (salida)
+Borrador = selección de herramienta borrador (entrada), click en lo que se desea borrar (proceso) y acción de borrar (salida).
+Cambio de color = Selección de color "A" (entrada), selección de color "B" distinto a "A" (proceso), nuevo color seleccionado (salida)
+
+
+Problemática 2: Aplicación de lista de compras compartida.
+
+Problemática 1: Necesidad de recordar los artículos a comprar para abastecer la despensa. 
+Requerimientos funcionales: Lista de compras, Compartir lista con otros usuario autorizados, Agregar elemento, marcar elemento y quitar elemento
+Variables: 
+	Lista de compra: ítems en la lista (variable)
+	Compartir lista:
+	Agregar elemento: Usuario (constante) y ítem a agregar (variable)
+	Marcar (tachar) ítem: usuario (constante), marcado (tachado) (variable) 	e 	ítem (variable)
+	Quitar ítem: Usuario (constante), ítem (variable), quitar elemento (constante)
+Algoritmo:
+
+              
+
+======================================
+
+algoritmo se solicita al usuario ingresar 2 numeros 
+
+Variables
+num1
+num2
+
+Imprimir "Ingrese primer numero :"
+num1 = leer 
+Imprimir "Ingrese segundo numero "
+num2 = leer
+Imprimir "sus numeros son :" + num1 + " y "+num2
