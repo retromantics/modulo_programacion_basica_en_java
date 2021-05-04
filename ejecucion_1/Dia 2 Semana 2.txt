@@ -1,0 +1,138 @@
+definir n1, n2
+
+escribir "ingrese nota 1"
+n1= leer nota 1
+escribir "ingrese nota 2"
+n2= leer nota 2
+
+ resultado = n1 + n2
+ 
+escribir: "La suma es: " + resultado
+
+--------------------------------------------
+
+definir n1, n2, n3
+
+escribir "ingrese nota 1"
+n1= leer nota 1
+escribir "ingrese nota 2"
+n2= leer nota 2
+escribir "ingrese nota 3"
+n3= leer nota 3
+
+promedio = (n1+n2+n3) / 3
+
+escribir: "el promedio es" + promedio
+--------------------------------------------
+definir n1
+escribir "ingrese numero"
+n1= leer numero
+cuadrado = elevar(n1,2);
+escribir: "el 
+
+funcion elevar(numero, potencia){
+
+    int elevado = numero;
+    int contador =1;
+
+    mientras(contador < potencia){
+        elevado = elevado * numero;
+        contador++;
+    }
+
+    devuelve elevado;
+
+}
+---------------------------------------------
+
+Un idividuo desea invertir un capital en un banco 
+y desea saber cuanto dinero ganara 
+despues de un mes si el banco le paga a razon de 2% mensual
+
+
+
+definir capitalInicial , interes
+
+inicio 
+var capitalInicial;
+cons interes; //0.02
+
+escribir  "Ingrese monto a calcular"
+capitalInicial = leer
+ganancia = monto * interes ;
+
+escribir "Su ganancia sera :" + ganancia 
+
+fin
+----------------
+
+definir marca modelo
+
+var marca
+var modelo
+escribir "ingrese marca"
+marca = leer
+escribir "ingrese modelo"
+modelo = leer
+
+escribir "su auto es marca :" + marca +" modelo:"+ modelo
+
+=======================================
+
+def numero, porcentaje
+var numero 
+var porcentaje
+var calculado
+
+escribir "ingrese numero"
+numero = leer
+escribir "ingrese le porcetaje que desea calcular como numero entero"
+porcentaje = leer
+
+calculado = numero  * (porcentaje/100)
+
+escribir "el porcetaje equivale a: " + calculado
+
+==========================================
+Realizar un algoritmo en pseudocódigo para resolver 
+el siguiente problema: un vendedor recibe un sueldo 
+base más un 10% de comisión de sus ventas. 
+El vendedor desea saber cuánto dinero obtendrá por concepto de comisiones 
+por tres ventas que realiza en el mes y el total que recibirá en el mes tomanndo en cuenta 
+su sueldo base y comisiones.
+
+Def sueldoBase, sueldoFinal,comisiones,ventas, procentaje
+
+inicio
+    var int sueldoBase
+    var int sueldoFinal
+    var int comisiones
+    var int venta1,venta2,venta3
+    const float porcentaje
+
+    comisiones =0 
+    porcentaje = 0.1
+
+    escribir "ingrese monto venta 1 "
+    venta1= leer
+    escribir "ingrese monto venta 2 "
+    venta2= leer
+    escribir "ingrese monto venta 3 "
+    venta3= leer
+
+    comisiones = (venta1+venta2+venta3)*porcentaje
+
+    sueldoFinal = sueldoBase +comisiones
+
+    escribir "Su sueldo final es : "+ sueldoFinal
+
+fin
+
+====================================
+
+a=x //3
+b=y //2
+
+a = a+b //5
+b = a-b //3
+a = a-b //2
