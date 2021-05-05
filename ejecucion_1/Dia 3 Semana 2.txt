@@ -1,0 +1,142 @@
+
+1 .Determinar si un numero ingresado es par o impar
+2. Determinar si un numero ingresado es multiplo de 2
+3. Determinar si un numero ingresado es multiplo de 3
+
+1. 
+Def num
+inicio
+    var int num 
+
+    escribir "ingrese un numero"
+    num = leer
+    si (num mod 2 == 0) entonces
+        escribir "el numero ingresado es par"
+    si no 
+        escribir "el numero ingresa es impar"
+fin
+
+2.
+Def num
+inicio
+    var int num 
+
+    escribir "ingrese un numero"
+    num = leer
+    si (num mod 2 == 0) entonces
+        escribir "el numero es multiplo de 2"
+    si no 
+        escribir "el numero no es multiplo de 2"
+fin
+
+3.
+Def num
+inicio
+    var int num 
+
+    escribir "ingrese un numero"
+    num = leer
+    si (num mod 2 == 0) entonces
+        escribir "el numero es multiplo de 3"
+    si no 
+        escribir "el numero no es multiplo de 3"
+fin
+
+=============================================================
+
+Numero mayor
+
+Def num1, num2
+inicio
+    var int num1, num2
+    escribir ingrese un numero
+    num1= leer
+    escribir ingrese otro numero
+    num2= leer
+
+    si num1> num2 entonces
+        escribir " el numero "+num1 + "es mayor "
+    si num1 <num2
+        escribir " el numero "+num2 + "es mayor "
+    si no
+        escribir " los numeros son iguales"
+
+============================================================
+
+Numero positivo , negativo o cero
+Def num1, num2
+inicio
+    var int num1, num2
+    escribir ingrese un numero
+    num1= leer
+    escribir ingrese otro numero
+    num2= leer
+
+    int suma = num1+num2
+
+    si (suma>0) entonces
+        escribir " la suma es positiva "
+    si suma <0
+         escribir " la suma es negativa "
+    si no
+        escribir " los suma es 0"
+fin
+===========================================================
+Numero divisible por 2 y 5 a la vez
+Def num
+inicio
+    var int num 
+
+    escribir "ingrese un numero"
+    num = leer
+    si (num mod 2 == 0 && num mod 5 == 0) entonces
+        escribir "el numero es divisible de 2 y 5 "
+    si (num mod 2 == 0 && num mod 5 != 0) 
+        escribir "el numero es  divisible por 2 y no por 5 "
+    si (num mod 2 != 0 && num mod 5 == 0) 
+        escribir "el numero es divisible por 5 y no por 2 "
+fin
+==============================================================
+Mayor de 3 numeros
+Def num1, num2,num3
+inicio
+    var int num1, num2,num3
+    escribir "ingrese un numero"
+    num1= leer
+    escribir "ingrese otro numero"
+    num2= leer
+    escribir "ingrese otro numero"
+    num3= leer
+
+    var mayor=0
+
+    si(num1 >= mayor) entonces
+        mayor =num1
+    si(num2 >= mayor) entonces
+        mayor =num2
+    si(num3 >= mayor) entonces
+        mayor =num3   
+    
+    escribir "el numero mayor es:" + mayor
+fin 
+
+=====================================
+INICIO
+Variables = n1, n2, x, res
+Según(x):
+Caso + : res = n1+n2;
+Print(res)
+
+Caso - : res = n1 - n2;
+Print(res)
+Caso / : res = n1/n2;
+Print(res)
+Caso * : res = n1*n2
+Print(res)
+Default:
+Print(“no es una operación válida”)
+
+FIN
+
+=======================================
+ 
