@@ -1,0 +1,109 @@
+
+Ejercicios
+
+Realizar algortimo en Pseudocodigo que resuelva los siguientes problemas utilizando 3 estructuras iterativas que hemos visto (mientras-hacer mientras-para):
+
+1)mostrar por pantalla los n° de 1 del 100 y del 100 al 1.
+
+escribir ("Serie con para: ");
+  para(i = 1; i <= 100; i++)
+   si(i < 100)
+    escribir(i + ",")
+    sino
+   escribir(i)
+
+escribir ("Serie con para: ");
+  para(i = 100; i >=1; i--)
+   si(i > 1)
+    escribir(i + ",")
+    sino
+   escribir(i)
+-------------------------------
+
+2)sumar solo los numeros pares ingresados 
+por un usuario (la cantidad de números que se 
+ingresan debe ser determinada por el usuario).
+
+
+inicio
+
+    
+    int numActual =1
+    int suma =0
+
+    escribir "ingrese la cantidad de numeros que desea sumar"
+    cant = leer
+
+    mientras (numActual <= cant){
+        if(numActual mod 2 == 0){
+            suma = suma+numActual
+        }
+        numActual++
+    }
+    escribir "la suma de los numeros pares "+ suma
+fin
+
+
+
+
+3)sumar solo los numeros pares e impares 
+ingresados por un usuario y contar la 
+cantidad de numeros pares e impares
+ (la cantidad de números que se ingresan debe ser 
+ determinada por el usuario).
+
+
+inicio
+
+    escribir "ingrese la cantidad de numeros que desea sumar"
+    cant = leer
+    int numActual =0
+    int sumaPares =0
+    int sumaImpares =0
+    int cantPares =0
+    int cantImpares =0
+
+    hacer {
+        si(numActual mod 2 == 0){
+            sumaPares = sumaPares+numActual
+            cantPares++
+        }sino{
+            sumaImpares = sumaImpares+numActual
+            cantImpares++
+        }
+        numActual++
+    } mientras(numActual <= cant)
+    escribir "la cant de numero pares es " + cantPares 
+    escribir "la cant de numero impares es " + cantImpares
+    escribir "la suma de numero pares es " + sumaPares 
+    escribir "la suma de numero impares es " + sumaImpares
+fin
+===================================================
+inicio
+
+definir res. sumapar, sumaimpar, contarpar, contarimpar
+
+escribir "ingrese numero"
+
+n1 = leer numero
+
+si (n1%2 == 0)
+sumapar = sumapar +n1
+contarpar++
+sino
+sumaimpar = sumaimpar +n1
+contarimpar++
+fin si
+
+escribir "desea ingresar nuevo numero? si/no"
+
+res = leer respuesta
+
+hasta (res == no)
+
+escribir "los numero pares ingresados son" +contarpar "y la suma de pares es" +sumapar
+
+escribir "los numero impares ingresados son" +contarimpar "y la suma de impares es" +sumaimpar
+
+fin
+

@@ -1,0 +1,13 @@
+inicio
+    int cantMt 
+    int cantIn
+
+    escribir "ingrese cantidad de tela en metros"
+    cantMt = leer
+    cantIn = cantMt / 0.0254
+
+    escribir "la cantidad de tela en pulgadas es " cantIn
+fin
+
+=================================
+
