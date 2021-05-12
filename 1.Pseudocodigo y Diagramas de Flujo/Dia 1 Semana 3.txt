@@ -1,0 +1,22 @@
+inicio
+    cantAl = leer cantidad de alumnos
+    valorIndividual ;
+    valorbase = 400000;
+    
+    //si(cantAl<30){
+    //    return valorbase;
+    //}
+
+    si (cantAl >= 100){
+        valorbase = cant* 6500
+    }
+    si (cantAl>= 50 && cantAl <= 99){
+        valorbase = cant*  7000;
+    }
+    si(cantAl>= 30 && cantAl <= 49){
+        valorbase = cant* 9500
+    }
+
+    imprimir "el costo total del viaje "+  valorbase;
+
+fin
