@@ -1,0 +1,13 @@
+Explicacion Algoritmo
+
+1. El Cliente selecion el producto 
+2. La tienda verifica el stock en bodega
+3. Si existe no existe stock muestra un mensaje avisando al cliente, si hay stock continua
+4. Se realiza el pago
+5. Si el pago es invalido se notificad y consulta si desea reintentar
+6. Si el pago es valido , se descuenta la el producto del stock en bodega y se genera un Comprobante
+7. Si el comprobante no se genera correctamente se muestra un mensaje, si el comprobante se genera
+bien se muestra
+8. Se entrega el producto
+
+Adjunto diagrama y pequeña aplicacion de prueba en psint.
